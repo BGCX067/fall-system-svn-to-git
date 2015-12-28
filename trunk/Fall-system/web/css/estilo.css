@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* Corpo */
+body {background-image: url(../imagens/bg.png);margin-left: 0px;margin-top: 20px;margin-right: 0px;margin-bottom: 0px;}
+.content {width:960px; height:auto; margin:0 auto;}
+/* TOPO */
+#logo {width:220px; height:61px; float:left;}
+#logo-home {width:220px; height:61px; margin:0 auto;}
+#con-entrar {width:184px; height:69px; float:right; background:url(../imagens/bg_entra.png);}
+#entrar {width:80px; height:auto; margin:0 auto; font-family:Arial; font-size:24px; padding-top:20px;}
+#cont-bg {width:954px; height:59px; margin:0 auto; background:url(../imagens/barra_bg.png);} #space01 {width:10px; height:20px; margin:0 auto;}
+.erro {width:340px; height:auto; text-align: center; margin:0 auto; padding-top: 10px;}
+
+/* MENU */
+#nav {float: left; margin: 0; padding: 0;}
+#nav li a, #nav li {float: left;}
+#nav li {list-style: none; position: relative; font-weight: bold;}
+#nav li a {padding: 1em 2em; text-decoration: none; color: black;}
+#nav li a:hover {}
+/* Submenu */
+#bg_submenu {text-align: center;background:url(../imagens/bg_submenus.png); width: 186px; height: 30px; padding-bottom:2px; padding-top: 2px; }
+#space03 {width:2px; height: 4px;}
+#bg_submenu:hover{
+    color: lawngreen;
+}
+.hasChildren {
+    position: absolute;
+    width: 2px; height: 5px;
+    background: black;
+    right : 0;
+    bottom: 0;
+}
+
+#nav li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    padding: 0; margin: 0;
+}
+
+#nav li:hover > ul {
+    display: block;
+    color: lawngreen;
+}
+
+#nav li ul li, #nav li ul li a {
+    float: none;
+}
+
+#nav li ul li {
+    _display: inline; /* for IE6 */
+}
+
+#nav li ul li a {
+    width: 130px;
+    height: 1px;
+    display: block;
+}
+
+/* SUBSUB Menu */
+
+#nav li ul li ul {
+    display: none;
+}
+
+#nav li ul li:hover ul {
+    left: 95%;
+    top: 0;
+}
+#nav li ul
+/* LOGIN */
+#space02 {width:10px; height:100px; margin:0 auto;}
+.login {width:340px; height:auto; margin:0 auto;}
+#font01 {font-family:limousines, Arial; font-size:24px;}
+.redonda {
+-moz-border-radius:10px;
+-webkit-border-radius:10px; 
+border-radius: 10px; 
+behavior:url(border-radius.htc);
+font-size:18px;}
+#botao-entrar {width:340px; height:auto; padding-top:5px; text-align:right;}
+
+/* FORMULARIOS */
+#mail {width: 960px; height: auto; margin:0 auto; background: lightyellow;}
+#space04 {width:960px; height: 15px;}
+#font02 {font-family: Arial; font-size: 18px; padding-top: 10px;}
+#font05 {font-family:slab, Arial; font-size:24px;}
+#font06 {font-family:slab_medium, Arial; font-size:24px;}
+.form-prestacao {width: 960px; height: auto; padding-left: 10px;}
+.bg_produto {width: 954px; height:41px;background: url(../imagens/bg_produto.png);}
+.bg_box1 {width: 940px; height: 15px; background: url(../imagens/box1.png); margin:0 auto;}
+.bg_box2 {width: 940px; height: 15px; background: url(../imagens/box2.png); margin:0 auto;}
+.bg_box3 {width: 940px; height: auto; background:#FFF; padding-top: 1px; padding-bottom: 1px; margin:0 auto;}
+#conteudo-box {width:954; height:250px; overflow: scroll;}
+/* TABELA */
+.fundotab {background: azure;}
+
+/* Status */
+#status  {width: 960px; height:auto; padding-bottom: 5px;}
+/* FOOTER */
+.footer {position:fixed;bottom:0;width:100%;height:auto;background:#333;font-family:Arial;font-size:14px; padding-top: 4px;}
+.footer-pe {width:100%;height:auto;background:#333;font-family:Arial;font-size:14px; padding-top: 4px;}
+.cont-footer {width:960px; height:auto; margin:0 auto; color:#FFF;}
+.box-reservado {width:365px; height:auto; float:left;}
+.box-menu {width:595px; height:auto; float:left;}
+#botao01 {width:auto; height:auto; float: right; padding-right: 20px; font-family:Arial; font-size: 14px; padding-top: 3px;}
+/* FONTS */
+@font-face {font-family: 'limousines';src: url('limousines/limousines.eot');src: local('limousines'), url('limousines/limousines.ttf') format('truetype');}
+@font-face {font-family: 'slab';src: local('slab'), url('slab/Slab.ttf') format('truetype');}
+@font-face {font-family: 'slab_medium';src: local('slab_medium'), url('slab/Slab_Medium.ttf') format('truetype');}
+/* clear */
+#divclear {clear:both;}

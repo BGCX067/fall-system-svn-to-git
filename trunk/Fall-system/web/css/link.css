@@ -1,0 +1,33 @@
+/* Link footer */
+a.linkfooter:link {
+	color:#FFF;
+	text-decoration: none;
+}
+a.linkfooter:visited {
+	text-decoration: none;
+	color:#FFF;
+}
+a.linkfooter:hover {
+        color: lawngreen;
+	text-decoration: none;
+}
+a.linkfooter:active {
+	text-decoration: none;
+}
+
+/* Link excluir*/
+a.linkexcluir:link {
+	text-decoration: none;
+        color: #333;
+}
+a.linkexcluir:visited {
+	text-decoration: none;
+        color: #333;
+}
+a.linkexcluir:hover {
+        color: lime;
+	text-decoration: none;
+}
+a.linkexcluir:active {
+	text-decoration: none;
+}
